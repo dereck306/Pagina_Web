@@ -31,4 +31,6 @@
     
     .topnav .logo img {
         width: 20%;
+        display: flex;
+        justify-content: baseline;
     }
