@@ -1,34 +1,36 @@
-    .header {
-        align-items: center;
-        background-color: #111111;
-        display: flex;
-        justify-content: space-between;
-        padding-left: 2%;
-        padding-right: 2%;
-        height: 80px;
-    }
-    
-    .header nav {
-        height: 2px;
-        display: flex;
-        justify-content: space-between;
-        width: 40%;
-    }
-    
-    .header a {
-        color: #AAAAAA;
-        text-decoration: none;
-    }
-    
-    .header a:hover {
-        color: #AAAAAA;
-        text-decoration: none;
-    }
-    
-    .header .Logo {
-        width: 125px;
-    }
-    
-    .topnav .logo img {
-        width: 20%;
-    }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #E8F1F2;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.lista {
+    list-style-type: none;
+}
+
+.lista .estilo1 {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.header a {
+    color: #2970CA;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: black;
+}
+
+.Logo0 {
+    height: 65px;
+}
